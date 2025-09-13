@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
+import Logo from '../assets/ChatGPT-Logo.png';
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -58,7 +59,7 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             onClick={() => scrollToSection("#home")}
           >
-          <img src="/ChatGPT-Logo.png" alt="Codixy Media Logo" className="h-20 w-20" />
+  <img src={Logo} alt="Codixy Media Logo" className="h-20 w-20" />
 
             <span className="hidden md:inline font-bold text-lg bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
               Codixy Media
