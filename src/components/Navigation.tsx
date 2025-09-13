@@ -58,11 +58,8 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             onClick={() => scrollToSection("#home")}
           >
-            <img
-              src="/public/ChatGPT Image Jun 23, 2025, 11_47_58 PM.png"
-              alt="Codixy Media Logo"
-              className="h-20 w-20"
-            />
+          <img src="/ChatGPT-Logo.png" alt="Codixy Media Logo" className="h-20 w-20" />
+
             <span className="hidden md:inline font-bold text-lg bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
               Codixy Media
             </span>
