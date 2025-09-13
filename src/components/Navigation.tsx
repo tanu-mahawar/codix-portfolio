@@ -19,7 +19,6 @@ export function Navigation() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -59,17 +58,7 @@ export function Navigation() {
             whileHover={{ scale: 1.05 }}
             onClick={() => scrollToSection("#home")}
           >
-<<<<<<< HEAD
-  <img src={Logo} alt="Codixy Media Logo" className="h-20 w-20" />
-=======
-<<<<<<< HEAD
-          <img src="/ChatGPT-Logo.png" alt="Codixy Media Logo" className="h-20 w-20" />
-=======
-   <img src="/ChatGPT-Logo.png" alt="Codixy Media Logo" className="h-20 w-20" />
-
->>>>>>> 9dc563a (Remove duplicate logo file)
->>>>>>> 049f11c (Remove duplicate logo file)
-
+            <img src={Logo} alt="Codixy Media Logo" className="h-20 w-20" />
             <span className="hidden md:inline font-bold text-lg bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
               Codixy Media
             </span>
